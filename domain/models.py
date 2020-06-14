@@ -16,6 +16,7 @@ class Domain(models.Model):
     domain_Renew_TimePeriod = models.CharField(max_length=10)
 
     domain_Link = models.CharField(max_length=30)
-
+    # Link for Registrar
+    domain_Registrar_Link = models.CharField(max_length=30)
 class Contact(models.Model):
     email = models.CharField(max_length=30)

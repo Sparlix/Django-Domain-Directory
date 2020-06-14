@@ -20,7 +20,9 @@
 	</head>
 	<!-- START OF NAVIGATION -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		<a class="navbar-brand" href="#">Domain Directory</a>
+		<a class="navbar-brand text-warning" href="{% url 'home' %}"
+			>Domain Directory</a
+		>
 		<button
 			class="navbar-toggler"
 			type="button"
@@ -145,9 +147,9 @@
 
 						<div class="text-center text-md-left">
 							<a
-								class="btn btn-primary"
+								class="btn btn-warning"
 								onclick="document.getElementById('contact-form').submit();"
-								>Send</a
+								>Send Now ></a
 							>
 						</div>
 						<div class="status"></div>
@@ -159,7 +161,7 @@
 						<ul class="list-unstyled mb-0">
 							<li>
 								<i class="fas fa-map-marker-alt fa-2x"></i>
-								<p>San Francisco, CA 94126, USA</p>
+								<p>CA 94126, USA</p>
 							</li>
 
 							<li>
@@ -169,7 +171,7 @@
 
 							<li>
 								<i class="fas fa-envelope mt-4 fa-2x"></i>
-								<p>contact@mdbootstrap.com</p>
+								<p>contact@placeholder.com</p>
 							</li>
 						</ul>
 					</div>
@@ -192,7 +194,7 @@
 			<!-- Copyright -->
 			<div class="footer-copyright text-center py-3 text-white">
 				© 2020 Copyright:
-				<a href="{% url 'home' %}"> Cody Brenner</a>
+				<a href="{% url 'home' %}" class="text-warning"> Cody Brenner</a>
 			</div>
 			<!-- Copyright -->
 		</footer>
